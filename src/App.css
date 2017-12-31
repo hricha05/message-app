@@ -1,0 +1,9 @@
+h2  {
+    margin: 20px;
+    padding: 10px;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #ff0000;
+    text-decoration: underline;
+    text-align: center;
+}
