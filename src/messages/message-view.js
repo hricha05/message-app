@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types'
 
-class MessageView extends Component {
-    render() {
+export default function MessageView({message}) {
         return(
             <div className="container">
                 <div className="from">
@@ -17,8 +17,9 @@ class MessageView extends Component {
                     <span className="value">Have a great day!</span>
                 </div>
             </div>
-        )
+        );
     }
-}
 
-export default MessageView;
+MessageView.PropTypes = {
+    message: PropTypes.object.isRequired
+}
