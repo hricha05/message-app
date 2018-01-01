@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import React, { Component} from 'react';
 
-export default function MessageView({message}) {
-        return(
+class MessageView extends Component {
+    render() {
+        return (
             <div className="container">
                 <div className="from">
                     <span className="label">From: </span>
@@ -19,7 +19,6 @@ export default function MessageView({message}) {
             </div>
         );
     }
-
-MessageView.PropTypes = {
-    message: PropTypes.object.isRequired
 }
+
+export default MessageView;
