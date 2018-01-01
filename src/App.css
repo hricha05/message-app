@@ -1,10 +1,20 @@
-container {
+.container {
     margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    border: 1px solid black;
 }
 
+.msg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .label {
     font-weight: bold;
     font-size: 1.2rem;
+    /* border: 1px solid black; */
+    margin-top: 10px;
 }
 
 .value {
