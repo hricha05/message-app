@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import messageView from './messages/message-view';
+import MessageView from './messages/message-view';
 
 class App extends Component {
 
