@@ -26,23 +26,23 @@ class MessageView extends Component {
                 <div className="msg">
                     <div className="from">
                         <span className="label">From: </span>
-                        <span className="value">Amira Richards</span>
+                        <span className="value">{message.from}</span>
                     </div>
                     <div className="status">
                         <span className="label">Status: </span>
-                        <span className="value"> Unread</span>
+                        <span className="value">{message.status}</span>
                     </div>
                     <div className="message">
                         <span className="label">Message: </span>
-                        <span className="value">Have a great day!</span>
+                        <span className="value">{message.content}</span>
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 
     //Mark message input parameter as required
-    MessageView.propTypes = {
+    MessageView;propTypes = {
         message: PropTypes.object.isRequired
     }
 }
