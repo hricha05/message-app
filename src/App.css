@@ -1,15 +1,21 @@
-.container {
-    margin-left: 40px;
-    margin-top: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-    border: 1px solid black;
+.header{
+    width: 320px;
+    border: 1px solid lightgray;
+    position: relative;
+    left: 40px;
 }
 
-.msg {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.container {
+    margin-left: 40px;
+    /* margin-top: 20px; */
+    padding: 20px;
+    font-family: sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 320px;
+    background-color: skyblue;
 }
+
 .label {
     font-weight: bold;
     font-size: 1.2rem;
@@ -18,7 +24,7 @@
 }
 
 .value {
-    color: #474747;
+    color: whitesmoke;
     position: absolute;
     left: 200px
 }
