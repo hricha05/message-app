@@ -19,6 +19,11 @@ class MessageList extends Component {
                 from: 'Cameron',
                 content: 'Why did you leave me',
                 status: 'read'
+            },
+            {
+                from: 'Harun',
+                content: 'I am here',
+                status: 'unread'
             }
         ]
     }
@@ -31,7 +36,7 @@ class MessageList extends Component {
         })
         return (
         <div>
-            <h1>List of Messages</h1>
+            <h1 className="header">Inbox</h1>
             {messageViews}
         </div>
         )
